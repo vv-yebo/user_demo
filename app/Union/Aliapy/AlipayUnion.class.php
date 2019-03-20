@@ -6,10 +6,9 @@
  * Time: 下午1:43
  */
 
-namespace app\Union\Wechat;
+namespace app\Union\Alipay;
 
-
-class WechatUnion
+class AlipayUnion
 {
 
     public function __construct()
