@@ -18,7 +18,7 @@ class AlipayUnion
     /**
      * 获取微信联合登录URL
      */
-    public function getUnionUrl()
+    public function getUnionUrl($status = 1, $type = 0)
     {
 
     }
@@ -26,7 +26,7 @@ class AlipayUnion
     /**
      * 获取微信联合登录code
      */
-    public function getCode()
+    public function getCode($status = 1, $type = 0)
     {
 
     }
@@ -34,7 +34,7 @@ class AlipayUnion
     /**
      * 通过code获取access token
      */
-    public function getAccessToken()
+    public function getAccessToken($status = 1, $type = 0)
     {
 
     }
@@ -42,7 +42,7 @@ class AlipayUnion
     /**
      * 通过access token 请求接口获取user info
      */
-    public function getUserInfo()
+    public function getUserInfo($status = 1, $type = 0)
     {
 
     }
